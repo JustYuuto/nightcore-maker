@@ -1,5 +1,7 @@
 # Nightcore Maker
 
+[![Build](https://github.com/NetherMCtv/nightcore-maker/actions/workflows/build.yml/badge.svg)](https://github.com/NetherMCtv/nightcore-maker/actions/workflows/build.yml)
+
 A Node.js program to make a nightcore version of a music in 10 seconds
 
 ## How it works
