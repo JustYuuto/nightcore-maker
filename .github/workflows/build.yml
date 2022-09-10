@@ -1,0 +1,31 @@
+name: Build
+on: push
+
+jobs:
+  windows:
+    name: Windows Build
+    runs-on: windows-latest
+    steps:
+      - name: Install pkg
+        run: npm install --global pkg
+      - name: Build
+        run: |
+          pkg src/index.js --targets node16-win-x64
+  linux:
+    name: Linux Build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install pkg
+        run: npm install --global pkg
+      - name: Build
+        run: |
+          pkg src/index.js --targets node16-linux-x64
+  macos:
+    name: MacOS Build
+    runs-on: macos-latest
+    steps:
+      - name: Install pkg
+        run: npm install --global pkg
+      - name: Build
+        run: |
+          pkg src/index.js --targets node16-macos-x64
