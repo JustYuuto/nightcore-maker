@@ -4,6 +4,7 @@
 # Video audio & wallpaper
 /build/*
 !/build/.gitkeep
+video.mp4
 
 # Program builds
 index-*
