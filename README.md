@@ -21,6 +21,6 @@ npm start
 
 ### Why did I take a subreddit for the wallpaper?
 
-I've search for 3h+ for an API for random anime wallpaper, I know Pixiv but this is nightmare for logging in. 1h30-2h of research, which didn't really help me because I couldn't connect to use their API... :|
+I've search for 3h+ for an API for random anime wallpaper, I know Pixiv but this is nightmare for logging in. 1h30-2h of research, which didn't really help me because I couldn't connect to use their API... 😐
 
 Finally took the subreddit because I've had enough of these login problems
