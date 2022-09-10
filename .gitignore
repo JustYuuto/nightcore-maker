@@ -1,5 +1,9 @@
 /.idea/
 /node_modules/
 
+# Video audio & wallpaper
 /build/*
 !/build/.gitkeep
+
+# Program builds
+index-*
