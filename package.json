@@ -25,6 +25,7 @@
   "dependencies": {
     "axios": "^0.27.2",
     "ffmpeg": "^0.0.4",
+    "ini": "^3.0.1",
     "ytdl-core": "^4.11.2"
   },
   "devDependencies": {
