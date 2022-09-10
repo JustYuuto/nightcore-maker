@@ -1,4 +1,4 @@
 clean:
-	rm -rf ./build/*.mp3
-	rm -rf ./build/*.png
-	rm -rf ./video.mp4
+	rm -f ./build/*.mp3
+	rm -f ./build/*.png
+	rm -f ./video.mp4
