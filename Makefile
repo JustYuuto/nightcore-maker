@@ -4,6 +4,3 @@ clean:
 	rm -f ./video.mp4
 	rm -f NightcoreMaker-*.*
 	rm -f index-*.*
-
-_build:
-	pkg src/index.js
