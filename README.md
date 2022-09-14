@@ -40,7 +40,7 @@ Options:
 
 - [ ] Add download and audio/video generation progress bars
 - [ ] Uploading to YouTube
-- [ ] Replace `config.ini` by CLI options 
+- [x] Replace `config.ini` by CLI options 
 
 ## Notes
 
