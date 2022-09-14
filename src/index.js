@@ -5,6 +5,8 @@ const { exec } = require('child_process');
 const { resolve } = require('path');
 const { program } = require('commander');
 
+if (!fs.existsSync(resolve(process.cwd(), 'build'))) fs.mkdirSync(resolve(process.cwd(), 'build'));
+
 program
   .name('nightcore-maker')
   .description('A Node.js program to make a nightcore version of a music in 10 seconds ')
@@ -21,6 +23,7 @@ program
     }
     downloadAudio(url);
     downloadWallpaper();
+    if (fs.existsSync(resolve('build/music.mp3'))) fs.unlinkSync(resolve('build/music.mp3'));
     if (fs.existsSync(resolve('build/output.mp3'))) fs.unlinkSync(resolve('build/output.mp3'));
     if (fs.existsSync(resolve('video.mp4'))) fs.unlinkSync(resolve('video.mp4'));
     setTimeout(() => createNightcoreAudio(options.speed), 4000);
@@ -37,7 +40,7 @@ function downloadAudio(url) {
   step('Downloading audio...');
   ytdl(url, {
     filter: 'audioonly'
-  }).pipe(fs.createWriteStream('build/music.mp3'));
+  }).pipe(fs.createWriteStream(resolve(process.cwd(), 'build', 'music.mp3')));
   step('Audio downloaded');
 }
 
