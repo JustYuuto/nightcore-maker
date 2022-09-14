@@ -21,9 +21,9 @@ npm start
 
 ## Todo
 
-[] Add download and audio/video generation progress bars
-[] Uploading to YouTube
-[] Replace `config.ini` by CLI options 
+- [ ] Add download and audio/video generation progress bars
+- [ ] Uploading to YouTube
+- [ ] Replace `config.ini` by CLI options 
 
 ## Notes
 
