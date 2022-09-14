@@ -19,6 +19,12 @@ Download [Node.js](https://nodejs.org/en/) v16+ and [FFmpeg](https://ffmpeg.org/
 npm start
 ```
 
+## Todo
+
+[ ] Add download and audio/video generation progress bars
+[ ] Uploading to YouTube
+[ ] Replace `config.ini` by CLI options 
+
 ## Notes
 
 ### Why did I take a subreddit for the wallpaper?
