@@ -11,12 +11,29 @@ A Node.js program to make a nightcore version of a music in 10 seconds
 * Using the downloaded audio, FFmpeg will speed it up 0.25x faster
 * Now that we have the faster audio (the nightcore version) and the wallpaper, we need the merge them to make a video [Not done yet]
 
-## Run it
+## Using it
 
-Download [Node.js](https://nodejs.org/en/) v16+ and [FFmpeg](https://ffmpeg.org/download.html), then run:
+Download Nightcore Maker with the [latest release](https://github.com/NetherMCtv/nightcore-maker/releases/latest) and [FFmpeg](https://ffmpeg.org/download.html), then in a command prompt (cmd/bash), run:
 
 ```bash
-npm start
+./file-you-ve-downloaded <video-url>
+```
+
+### Options
+
+```bash
+Usage: nightcore-maker [options] <video>
+
+A Node.js program to make a nightcore version of a music in 10 seconds 
+
+Arguments:
+  video                Video URL
+
+Options:
+  -V, --version        output the version number
+  -s, --speed <speed>  speed of the new audio (default: 1.25)
+  -f, --fps <fps>      fps of the video (default: 25)
+  -h, --help           display help for command
 ```
 
 ## Todo
